@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35BB3F6F15D6CF310079230E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BB3F6E15D6CF310079230E /* Cocoa.framework */; };
+		35BB3F7915D6CF310079230E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35BB3F7715D6CF310079230E /* InfoPlist.strings */; };
+		35BB3F7B15D6CF310079230E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F7A15D6CF310079230E /* main.m */; };
+		35BB3F7F15D6CF310079230E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 35BB3F7D15D6CF310079230E /* Credits.rtf */; };
+		35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F8115D6CF310079230E /* AppDelegate.m */; };
+		35BB3F8515D6CF310079230E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BB3F8315D6CF310079230E /* MainMenu.xib */; };
+		35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F8C15D6D2560079230E /* MasterViewController.m */; };
+		7A998E721921AD1000A69CBA /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A998E711921AD1000A69CBA /* SystemInfo.m */; };
+		7A998E7E1921AD1B00A69CBA /* CPU-Usage0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E731921AD1B00A69CBA /* CPU-Usage0.png */; };
+		7A998E7F1921AD1B00A69CBA /* CPU-Usage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E741921AD1B00A69CBA /* CPU-Usage1.png */; };
+		7A998E801921AD1B00A69CBA /* CPU-Usage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E751921AD1B00A69CBA /* CPU-Usage2.png */; };
+		7A998E811921AD1B00A69CBA /* CPU-Usage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E761921AD1B00A69CBA /* CPU-Usage3.png */; };
+		7A998E821921AD1B00A69CBA /* CPU-Usage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E771921AD1B00A69CBA /* CPU-Usage4.png */; };
+		7A998E831921AD1B00A69CBA /* CPU-Usage5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E781921AD1B00A69CBA /* CPU-Usage5.png */; };
+		7A998E841921AD1B00A69CBA /* CPU-Usage6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E791921AD1B00A69CBA /* CPU-Usage6.png */; };
+		7A998E851921AD1B00A69CBA /* CPU-Usage7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E7A1921AD1B00A69CBA /* CPU-Usage7.png */; };
+		7A998E861921AD1B00A69CBA /* CPU-Usage8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E7B1921AD1B00A69CBA /* CPU-Usage8.png */; };
+		7A998E871921AD1B00A69CBA /* CPU-Usage9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E7C1921AD1B00A69CBA /* CPU-Usage9.png */; };
+		7A998E881921AD1B00A69CBA /* CPU-Usage10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A998E7D1921AD1B00A69CBA /* CPU-Usage10.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35BB3F6A15D6CF310079230E /* CPUMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BB3F6E15D6CF310079230E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		35BB3F7115D6CF310079230E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		35BB3F7215D6CF310079230E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		35BB3F7315D6CF310079230E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35BB3F7615D6CF310079230E /* CPUMenuBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPUMenuBar-Info.plist"; sourceTree = "<group>"; };
+		35BB3F7815D6CF310079230E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35BB3F7A15D6CF310079230E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35BB3F7C15D6CF310079230E /* CPUMenuBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPUMenuBar-Prefix.pch"; sourceTree = "<group>"; };
+		35BB3F7E15D6CF310079230E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		35BB3F8015D6CF310079230E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35BB3F8115D6CF310079230E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35BB3F8415D6CF310079230E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		35BB3F8B15D6D2560079230E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		35BB3F8C15D6D2560079230E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		7A998E701921AD1000A69CBA /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		7A998E711921AD1000A69CBA /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		7A998E731921AD1B00A69CBA /* CPU-Usage0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage0.png"; sourceTree = "<group>"; };
+		7A998E741921AD1B00A69CBA /* CPU-Usage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage1.png"; sourceTree = "<group>"; };
+		7A998E751921AD1B00A69CBA /* CPU-Usage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage2.png"; sourceTree = "<group>"; };
+		7A998E761921AD1B00A69CBA /* CPU-Usage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage3.png"; sourceTree = "<group>"; };
+		7A998E771921AD1B00A69CBA /* CPU-Usage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage4.png"; sourceTree = "<group>"; };
+		7A998E781921AD1B00A69CBA /* CPU-Usage5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage5.png"; sourceTree = "<group>"; };
+		7A998E791921AD1B00A69CBA /* CPU-Usage6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage6.png"; sourceTree = "<group>"; };
+		7A998E7A1921AD1B00A69CBA /* CPU-Usage7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage7.png"; sourceTree = "<group>"; };
+		7A998E7B1921AD1B00A69CBA /* CPU-Usage8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage8.png"; sourceTree = "<group>"; };
+		7A998E7C1921AD1B00A69CBA /* CPU-Usage9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage9.png"; sourceTree = "<group>"; };
+		7A998E7D1921AD1B00A69CBA /* CPU-Usage10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CPU-Usage10.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35BB3F6715D6CF310079230E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BB3F6F15D6CF310079230E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35BB3F5F15D6CF310079230E = {
+			isa = PBXGroup;
+			children = (
+				35BB3F7415D6CF310079230E /* CPUMenuBar */,
+				35BB3F6D15D6CF310079230E /* Frameworks */,
+				35BB3F6B15D6CF310079230E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35BB3F6B15D6CF310079230E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F6A15D6CF310079230E /* CPUMenuBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35BB3F6D15D6CF310079230E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F6E15D6CF310079230E /* Cocoa.framework */,
+				35BB3F7015D6CF310079230E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35BB3F7015D6CF310079230E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F7115D6CF310079230E /* AppKit.framework */,
+				35BB3F7215D6CF310079230E /* CoreData.framework */,
+				35BB3F7315D6CF310079230E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		35BB3F7415D6CF310079230E /* CPUMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A07279F191C93B00025B6FA /* Util */,
+				35BB3F9815D6DB2A0079230E /* Images */,
+				35BB3F9015D6D65D0079230E /* GUI */,
+				35BB3F7515D6CF310079230E /* Supporting Files */,
+			);
+			name = CPUMenuBar;
+			path = ScaryBugsApp;
+			sourceTree = "<group>";
+		};
+		35BB3F7515D6CF310079230E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F7615D6CF310079230E /* CPUMenuBar-Info.plist */,
+				35BB3F7715D6CF310079230E /* InfoPlist.strings */,
+				35BB3F7A15D6CF310079230E /* main.m */,
+				35BB3F7C15D6CF310079230E /* CPUMenuBar-Prefix.pch */,
+				35BB3F7D15D6CF310079230E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35BB3F9015D6D65D0079230E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F8015D6CF310079230E /* AppDelegate.h */,
+				35BB3F8115D6CF310079230E /* AppDelegate.m */,
+				35BB3F8315D6CF310079230E /* MainMenu.xib */,
+				35BB3F8B15D6D2560079230E /* MasterViewController.h */,
+				35BB3F8C15D6D2560079230E /* MasterViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		35BB3F9815D6DB2A0079230E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A998E731921AD1B00A69CBA /* CPU-Usage0.png */,
+				7A998E741921AD1B00A69CBA /* CPU-Usage1.png */,
+				7A998E751921AD1B00A69CBA /* CPU-Usage2.png */,
+				7A998E761921AD1B00A69CBA /* CPU-Usage3.png */,
+				7A998E771921AD1B00A69CBA /* CPU-Usage4.png */,
+				7A998E781921AD1B00A69CBA /* CPU-Usage5.png */,
+				7A998E791921AD1B00A69CBA /* CPU-Usage6.png */,
+				7A998E7A1921AD1B00A69CBA /* CPU-Usage7.png */,
+				7A998E7B1921AD1B00A69CBA /* CPU-Usage8.png */,
+				7A998E7C1921AD1B00A69CBA /* CPU-Usage9.png */,
+				7A998E7D1921AD1B00A69CBA /* CPU-Usage10.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7A07279F191C93B00025B6FA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7A998E701921AD1000A69CBA /* SystemInfo.h */,
+				7A998E711921AD1000A69CBA /* SystemInfo.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35BB3F6915D6CF310079230E /* CPUMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BB3F8815D6CF310079230E /* Build configuration list for PBXNativeTarget "CPUMenuBar" */;
+			buildPhases = (
+				35BB3F6615D6CF310079230E /* Sources */,
+				35BB3F6715D6CF310079230E /* Frameworks */,
+				35BB3F6815D6CF310079230E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPUMenuBar;
+			productName = ScaryBugsApp;
+			productReference = 35BB3F6A15D6CF310079230E /* CPUMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35BB3F6115D6CF310079230E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+			};
+			buildConfigurationList = 35BB3F6415D6CF310079230E /* Build configuration list for PBXProject "CPUMenuBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35BB3F5F15D6CF310079230E;
+			productRefGroup = 35BB3F6B15D6CF310079230E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35BB3F6915D6CF310079230E /* CPUMenuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35BB3F6815D6CF310079230E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A998E7F1921AD1B00A69CBA /* CPU-Usage1.png in Resources */,
+				7A998E811921AD1B00A69CBA /* CPU-Usage3.png in Resources */,
+				35BB3F7915D6CF310079230E /* InfoPlist.strings in Resources */,
+				35BB3F7F15D6CF310079230E /* Credits.rtf in Resources */,
+				35BB3F8515D6CF310079230E /* MainMenu.xib in Resources */,
+				7A998E841921AD1B00A69CBA /* CPU-Usage6.png in Resources */,
+				7A998E851921AD1B00A69CBA /* CPU-Usage7.png in Resources */,
+				7A998E871921AD1B00A69CBA /* CPU-Usage9.png in Resources */,
+				7A998E7E1921AD1B00A69CBA /* CPU-Usage0.png in Resources */,
+				7A998E881921AD1B00A69CBA /* CPU-Usage10.png in Resources */,
+				7A998E801921AD1B00A69CBA /* CPU-Usage2.png in Resources */,
+				7A998E821921AD1B00A69CBA /* CPU-Usage4.png in Resources */,
+				7A998E831921AD1B00A69CBA /* CPU-Usage5.png in Resources */,
+				7A998E861921AD1B00A69CBA /* CPU-Usage8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35BB3F6615D6CF310079230E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A998E721921AD1000A69CBA /* SystemInfo.m in Sources */,
+				35BB3F7B15D6CF310079230E /* main.m in Sources */,
+				35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */,
+				35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35BB3F7715D6CF310079230E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BB3F7815D6CF310079230E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35BB3F7D15D6CF310079230E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BB3F7E15D6CF310079230E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		35BB3F8315D6CF310079230E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BB3F8415D6CF310079230E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35BB3F8615D6CF310079230E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35BB3F8715D6CF310079230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35BB3F8915D6CF310079230E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPUMenuBar/CPUMenuBar-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugsApp/CPUMenuBar-Info.plist";
+				PRODUCT_NAME = CPUMenuBar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35BB3F8A15D6CF310079230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPUMenuBar/CPUMenuBar-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugsApp/CPUMenuBar-Info.plist";
+				PRODUCT_NAME = CPUMenuBar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35BB3F6415D6CF310079230E /* Build configuration list for PBXProject "CPUMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BB3F8615D6CF310079230E /* Debug */,
+				35BB3F8715D6CF310079230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35BB3F8815D6CF310079230E /* Build configuration list for PBXNativeTarget "CPUMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BB3F8915D6CF310079230E /* Debug */,
+				35BB3F8A15D6CF310079230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35BB3F6115D6CF310079230E /* Project object */;
+}
